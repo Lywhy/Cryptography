@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cryptography | by Lyshee</title>
+</head>
+<body>
+    <div class="cryptography">
+        <div class="container">
+            <h1>Lyshee Text Encryptor</h1>
+            <div class="block-message">
+                <h4>Message:</h4>
+                <textarea id="message"></textarea>
+            </div>
+            <div class="block-key">
+                <h4>Key:</h4>
+                <input type="text" id="key" placeholder="caesar | vigenera | morse | keysub">
+            </div>
+            <div class="block-option">
+                <h4>Option:</h4>
+                <input type="text" id="keyword">
+            </div>
+            <div class="block-buttons">
+                <button class="btn" id="encrypt">Encrypt</button>
+                <button class="btn" id="decrypt">Decrypt</button>
+            </div>
+            <div class="block-result">
+                <h2>Result:</h2>
+                <textarea id="result"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
